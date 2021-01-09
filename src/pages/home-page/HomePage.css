@@ -1,0 +1,8 @@
+.home-page{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    margin:0px;
+    max-width: 1800px;
+    background-color: white;
+}

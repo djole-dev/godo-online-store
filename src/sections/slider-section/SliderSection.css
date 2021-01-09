@@ -1,0 +1,16 @@
+.slider{
+    position: relative;
+    max-width: 1200px;
+    max-height: 400px;
+    margin: 5% 10% 5% 10%;  
+    padding: 0 0 0 0;
+    
+    border-radius: 20px !important;
+}
+
+
+
+.slider_image{
+    max-height: 350px;  /* change this to whatever you want */
+    width: auto;
+}

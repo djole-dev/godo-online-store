@@ -1,0 +1,43 @@
+
+
+
+.footer {
+  display: flex;
+  flex-direction: space-between;
+  padding-left: 13%;
+  padding-right: 13%;
+  height: 300px;
+  background-color:#1b3e52;
+}
+
+
+
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  color: white;
+  justify-content: center;
+}
+
+.footer-header {
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.footer-item {
+  display: flex;
+  flex-direction: flex-start;
+
+  margin: 2px;
+  font-weight: 300;
+}
+
+
+@media only screen and (max-width: 900px) {
+  .footer {
+    flex-direction: column;
+    height:600px ;
+  }
+} 

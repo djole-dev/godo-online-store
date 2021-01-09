@@ -1,0 +1,44 @@
+.categoryComponent{
+    position: relative;
+    width: 320px;
+    height: 420px;
+    background: #ffffff;
+    overflow: hidden;
+    margin: 20px;
+   
+}
+
+.categoryComponent-content{
+    padding-top: 10px;
+}
+
+.categoryComponent-shopNow{
+    padding-top:5px;
+    color:#2196F3;
+}
+
+
+.categoryComponent-image{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 20%;
+    z-index: 1;
+  }
+  
+  .categoryComponent-image > img{
+    max-width: 100%;
+    transition: 0.5s;
+  }
+  
+  
+  .categoryComponent:hover .categoryComponent-image > img
+  {
+    max-width: 60%;
+    object-fit: contain;
+  
+  }
+
+
+

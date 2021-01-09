@@ -1,0 +1,34 @@
+.subnavigation{
+    height: 35px;
+    display: flex;
+    align-items: center;
+    background-color: #1b3e52;
+    position: sticky;
+    top: 60px;
+    z-index: 100;
+}
+
+
+.subnavigation_nav{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 60px;
+}
+
+.subnavigation_option{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: #ffffff;
+}
+
+.subnavigation_optionLineOne{
+    font-size: 10px;
+}
+
+.subnavigation_optionLineTwo{
+    font-size: 13px;
+    font-weight: 700;
+}
+

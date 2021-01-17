@@ -1,18 +1,32 @@
 import React from "react";
 import "./CategoryComponent.css";
-import Logo from "./product.png";
+import { Link } from "react-router-dom";
+import { useStateValue} from '../../StateProvider';
 
-function CategoryComponent() {
+function CategoryComponent({ title, image, category }) {
+  const [{currentProducts}, dispatch]= useStateValue();
+
+  const refreshProducts = () => {   
+   dispatch({
+     type:"CHANGE_PRODUCTS",
+     item: category
+   })
+
+   console.log(currentProducts);
+  }
   return (
     <div className='categoryComponent'>
-      <div className='categoryComponent-image'>
-        <img src={Logo} height='200px' alt='logo' />
-      </div>
       <div className='categoryComponent-content'>
-        <h3>Wireless Headphones</h3>
+        <h3>{title}</h3>
       </div>
+      <div className='categoryComponent-image'>
+        <img src={image} height='200px' alt='logo' />
+      </div>
+
       <div className='categoryComponent-shopNow'>
-        <p>Shop Now</p>
+        <Link to='/products' style={{ textDecoration: "none" }}>
+          <p onClick={refreshProducts}>Shop Now</p>
+        </Link>
       </div>
     </div>
   );

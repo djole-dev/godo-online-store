@@ -7,18 +7,14 @@ function SubnavigtionSection() {
       <div className='subnavigation_nav'>
         <div className='subnavigation_option'>
           
-          <span className='subnavigation_optionLineTwo'>Top deals</span>
+          <span className='subnavigation_optionLineTwo'>New Arrivals</span>
         </div>
 
         <div className='subnavigation_option'>
       
-          <span className='subnavigation_optionLineTwo'>Hot products</span>
+          <span className='subnavigation_optionLineTwo'>Hot Products</span>
         </div>
 
-        <div className='subnavigation_option'>
-         
-          <span className='subnavigation_optionLineTwo'>New on the shop</span>
-        </div>
       </div>
     </div>
   );

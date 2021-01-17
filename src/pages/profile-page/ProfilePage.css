@@ -1,0 +1,92 @@
+.profile-page {
+  display: flex;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-card {
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  width: 60vw;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid lightgray;
+  box-shadow: 4px 4px lightgray;
+}
+
+.profile-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.profile-image {
+  object-fit: contain;
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+}
+
+.profile-right {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin-left: 60px;
+  margin-bottom: 50px;
+  margin-top: 15px;
+  margin-right: 0px;
+}
+
+.profile-info-2{
+    display: flex;
+    align-items: center;
+   
+}
+
+.profile-info-2 > h4{
+    margin:0px;
+    margin-bottom: 4px;
+    margin-right: 6px;
+    
+    
+}
+
+.profile-info-2 > p {
+  margin:0px;
+}
+
+.profile-info > p {
+  margin: 0px;
+  margin-top: 15px;
+  text-align: left;
+  margin-left: 5px;
+  margin-bottom: 2px;
+}
+
+.profile-input {
+  height: 12px;
+  padding: 10px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.profile-button{
+    margin-top: 30px;
+}
+
+.profile-button > button {
+    width: 30%;
+    border-radius: 5px;
+    border:none;
+    background-color:#2196f3;
+    color: #fff;
+    height: 40px;
+    font: 400;
+}
+
+

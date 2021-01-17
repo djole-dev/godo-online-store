@@ -1,0 +1,32 @@
+.empty {
+    width: 90%;
+    background-color: #6fcf97;
+    border-radius: 0px 0px 10px 10px;
+    margin-bottom: -7px;
+    padding-bottom: 6px;
+  }
+  
+  .empty_info {
+    font-weight: 500;
+    font-size: 13px;
+    margin-left: 10px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+  
+    color: #42ae70;
+  }
+  
+  .empty_icon {
+    color: #42ae70;
+    margin-top: 5px;
+    height: 17px;
+    width: 17px;
+  }
+  
+  .em {
+    text-align: left;
+    margin-left: 43px;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: row;
+  }

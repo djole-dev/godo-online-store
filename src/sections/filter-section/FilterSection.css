@@ -1,0 +1,41 @@
+.filter{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    padding-top: 30px;
+    border: 1px solid lightgrey;
+    background-color: white;
+}
+
+.filter-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.filter-section{
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    align-items: center;
+    box-shadow: 4px 4px lightgrey;
+    
+}
+
+.filter-row > button{
+    background: #2196F3;
+    border: 0px solid white;
+    width: 15%;
+    height: 30px;
+    
+    border-radius: 10px;
+
+    margin-top: 10px;
+    color: #ffffff
+}

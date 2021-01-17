@@ -1,0 +1,48 @@
+.field {
+    width: 90%;
+    background-color: #6fcf97;
+    border-radius: 0px 0px 10px 10px;
+    margin-bottom: -7px;
+    padding-bottom: 20px;
+    z-index: 100;
+  }
+  
+  .field:hover {
+    background-color: #69c38f;
+  }
+  
+  .field_text {
+    font-weight: 300;
+    color: white;
+    padding: 0px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+  
+  .bolder_text {
+    font-weight: 800;
+    background-color: transparent;
+    color: white;
+  }
+  
+  .field_description {
+    font-weight: 500;
+    font-size: 13px;
+    padding: 1px;
+    margin-top: 2px;
+  
+    color: #42ae70;
+  }
+  
+  .bolder_description {
+    font-weight: 800;
+    background-color: transparent;
+    color: #239753;
+  }
+  
+  .fi {
+    text-align: left;
+    margin-left: 43px;
+    margin-right: 43px;
+    padding-top: 15px;
+  }

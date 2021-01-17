@@ -1,0 +1,81 @@
+.comment{
+   display: flex;
+   flex-direction: row;
+   border: 0.5px solid lightgray;
+   box-shadow: 1px 1px;
+   margin-top: 5px;
+   margin-bottom: 5px;
+   border-radius: 10px;
+   padding-top: 10px;
+   padding-left: 10px;
+}
+
+
+.comment-image{
+    object-fit: contain;
+    width: 50px;
+    border-radius: 50px;
+}
+
+.comment-left{
+
+   justify-content: flex-start;
+   align-items: flex-start;
+}
+
+.comment-right{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+   justify-content: flex-start !important;
+   align-items: flex-start !important;
+   align-content: flex-start;
+   align-self: flex-start;
+   width: 100%;
+   margin-left: 20px;
+}
+
+
+.comment-right-up > h4{
+    display: flex;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.comment-right-up > p{
+ text-align: left;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 0px;
+}
+
+.comment-rating{
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.comment-right-up{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    
+  
+}
+
+.date{
+    margin-left: 25px;
+}
+
+.comment-right-down{
+    display: flex;
+    
+    width: 100%;
+    align-items: center;
+}

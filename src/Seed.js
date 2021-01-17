@@ -1,0 +1,190 @@
+export const productsArray = [
+    {
+      id: "001",
+      name: "Acer Portable Laptop 15''6'",
+      category: "laptops",
+      description: "One of the best Acer laptops on the market.",
+      price: 350.99,
+      country: "China",
+      image:"https://image.freepik.com/free-psd/office-desk-concept-with-mock-up_23-2148692407.jpg",
+      rating: 4,
+      delivery: 6
+    },
+    {
+      id: "002",
+      name: "HP Pavilion 17''6'",
+      category: "laptops",
+      description: "2.6gHz 4GB RAM i7 Intel Core",
+      price: 550.99,
+      country: "Italy",
+      image:"https://image.freepik.com/free-psd/laptop-mock-up_1310-197.jpg",
+      rating: 5,
+      delivery: 4
+    },
+    {
+      id: "003",
+      name: "Asus Strix Laptop ",
+      category: "laptops",
+      description: "Laptop for best gaming experience.",
+      price: 850.99,
+      country: "USA",
+      image:"https://image.freepik.com/free-psd/white-macbook-pro-mockup_106244-898.jpg",
+      rating: 3,
+      delivery: 8
+    },
+    {
+      id: "004",
+      name: "Toshiba Grand",
+      category: "laptops",
+      description: "Only available in the black color",
+      price: 420.99,
+      country: "China",
+      image:"https://image.freepik.com/free-photo/close-up-minimalist-shot-generic-laptop-computer-working-accessories-resting-wooden-table_273609-1706.jpg",
+      rating: 5,
+      delivery: 6
+    },
+    {
+      id: "005",
+      name: "IPhone 11",
+      category: "phones",
+      description:
+        "New generation of IPhone is here. Available only in red color.",
+      price: 649.99,
+      country: "China",
+      image:"https://image.freepik.com/free-psd/woman-using-smartphone-psd-mockup_1150-34840.jpg",
+      rating: 5,
+      delivery: 6
+    },
+    {
+      id: "006",
+      name: "Samsung S20",
+      category: "phones",
+      description: "Fastest phone on market with highest optimization rank.",
+      price: 849.99,
+      country: "South Korea",
+      image:"https://image.freepik.com/free-psd/smartphone-mockup_1310-812.jpg",
+      rating: 5,
+      delivery: 7
+    },
+    {
+      id: "007",
+      name: "Huawei 20 mate PRO",
+      category: "phones",
+      description: "This phone has best camera with four lenses.",
+      price: 439.99,
+      country: "Japan",
+      image:"https://image.freepik.com/free-psd/full-screen-smartphone-mockup_136295-381.jpg",
+      rating: 3,
+      delivery: 8
+    },
+    {
+      id: "008",
+      name: "Xiaomi Remi Note",
+      category: "phones",
+      description: "Best phone with the best price.",
+      price: 249.99,
+      country: "China",
+      image:"https://image.freepik.com/free-psd/new-smartphone-mockup-floating_252953-7.jpg",
+      rating: 2,
+      delivery: 6
+    },
+    {
+      id: "009",
+      name: "Headphones",
+      category: "computeracessories",
+      description: "BeatByDre headphones with best quality sound.",
+      price: 229.99,
+      country: "USA",
+      image:"https://image.freepik.com/free-photo/colored-headphones-colored-vintage-background_121234-174.jpg",
+      rating: 2,
+      delivery: 8
+    },
+    {
+      id: "010",
+      name: "Bluetooth Keyboard",
+      category: "computeracessories",
+      description: "Keyboard with range of 1km.",
+      price: 49.99,
+      country: "Turkey",
+      image:"https://image.freepik.com/free-photo/wireless-mouse-keyboard_1260-15.jpg?1",
+      rating: 4,
+      delivery: 5
+    },
+    {
+      id: "011",
+      name: "Mouse with Wire",
+      category: "computeracessories",
+      description: "Good oldschool mouse with high quality wire.",
+      price: 12.99,
+      country: "Italy",
+      image:"https://image.freepik.com/free-photo/red-computer-mouse_1260-13.jpg?1",
+      rating: 3,
+      delivery: 8
+    },
+    {
+      id: "012",
+      name: "LCD Monitor",
+      category: "computeracessories",
+      description: "Monitor 1900x1200 with 60fps.",
+      price: 449.99,
+      country: "China",
+      image:"https://image.freepik.com/free-psd/three-dimensional-image-computer_53876-1608.jpg",
+      rating: 5,
+      delivery: 8
+    },
+    {
+      id: "013",
+      name: "LG Smart TV",
+      category: "tvs",
+      description: "Latest verstion of LG Smart products.",
+      price: 750.99,
+      country: "China",
+      image:"https://image.freepik.com/free-vector/realistic-mockup-living-room-with-big-plasma-tv-flat-gray-wall-black-stand_1441-2201.jpg",
+      rating: 3,
+      delivery: 3
+    },
+    {
+      id: "014",
+      name: "Samsung LED TV",
+      category: "tvs",
+      description: "Big LED TV with 3D technology.",
+      price: 349.99,
+      country: "USA",
+      image:"https://image.freepik.com/free-photo/people-hands-with-remote-watching-football-game_9083-2169.jpg",
+      rating: 5,
+      delivery: 8
+    },
+    {
+      id: "015",
+      name: "Philips EDGE TV",
+      category: "tvs",
+      description: "Edge TV, you will watch it with joy.",
+      price: 659.99,
+      country: "UK",
+      image:"https://image.freepik.com/free-psd/generation-smart-led-4k-tv-enlighten-studio-mock-up_1412-681.jpg",
+      rating:4 ,
+      delivery: 5
+    },
+    {
+      id: "016",
+      name: "Asus Tablet",
+      category: "tablets",
+      description: "Latest version of software included.",
+      price: 299.99,
+      country: "USA",
+      image:"https://image.freepik.com/free-psd/top-view-hand-holding-tablet_23-2148792188.jpg",
+      rating: 4,
+      delivery: 7
+    },
+    {
+      id: "017",
+      name: "IPad 7",
+      category: "tablets",
+      description: "Apple seventh series of tablet products.",
+      price: 399.99,
+      country: "China",
+      image:"https://image.freepik.com/free-psd/modern-tablet-screen-mockup_358694-51.jpg",
+      rating: 5,
+      delivery: 6
+    },
+  ];
